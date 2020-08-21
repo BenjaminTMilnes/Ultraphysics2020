@@ -82,3 +82,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.linklist p{
+    font-size: 14px;
+    margin: 7px 0px;
+
+}
