@@ -43,13 +43,13 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
+     text-decoration: underline;
 }
 
 p {
     font-size: 14px;
-    margin: 17px 0px;
     text-align: left;
 }
 
@@ -59,11 +59,10 @@ p {
         margin: 0px 0px 22px 0px;
     }
     h2 {
-        font-size: 27px;
+        font-size: 17px;
     }
     p {
         font-size: 17px;
-        margin: 22px 0px;
         text-align: justify;
     }
 }
@@ -83,8 +82,25 @@ a:hover {
     text-decoration: underline;
 }
 
+.linklists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.linklist {
+    max-width: 15em;
+    padding: 1em;
+}
+
+.linklist h2{
+    margin: 1em 0em;
+
+}
+
 .linklist p{
     font-size: 14px;
-    margin: 7px 0px;
+    margin: 0.5em 0em;
 
 }
