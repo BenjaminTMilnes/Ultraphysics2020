@@ -55,13 +55,11 @@ p {
 @media (min-width:400px) {
     h1 {
         font-size: 22px;
-        margin: 0px 0px 22px 0px;
+        margin: 0em 0em 1em 0em;
     }
     h2 {
-        font-size: 17px;
     }
     p {
-        font-size: 17px;
         text-align: justify;
     }
 }
@@ -84,14 +82,22 @@ a:hover {
 .linklists {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: flex-start;
-    max-height: 100vh;
 }
 
 .linklist {
-    max-width: 15em;
     padding: 1em;
+}
+
+@media (min-width:700px) {
+    .linklists {
+        flex-wrap: wrap;
+        max-height: 100vh;
+    }
+
+    .linklist {
+        max-width: 15em;
+    }
 }
 
 .linklist h2 {
@@ -99,6 +105,5 @@ a:hover {
 }
 
 .linklist p {
-    font-size: 14px;
     margin: 0.5em 0em;
 }
