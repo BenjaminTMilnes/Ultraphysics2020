@@ -11,19 +11,18 @@ body {
 }
 
 .centrecolumn {
+    min-width: 200px;
     max-width: 1000px;
     margin: 0px auto;
 }
 
 @media (min-width:400px) {
-    body {}
     .mainpage {
         padding: 40px;
     }
 }
 
 @media (min-width:700px) {
-    body {}
     .mainpage {
         padding: 70px;
         overflow-wrap: normal;
@@ -45,7 +44,7 @@ h1 {
 h2 {
     font-size: 17px;
     text-align: center;
-     text-decoration: underline;
+    text-decoration: underline;
 }
 
 p {
@@ -87,6 +86,7 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
+    max-height: 100vh;
 }
 
 .linklist {
@@ -94,13 +94,11 @@ a:hover {
     padding: 1em;
 }
 
-.linklist h2{
+.linklist h2 {
     margin: 1em 0em;
-
 }
 
-.linklist p{
+.linklist p {
     font-size: 14px;
     margin: 0.5em 0em;
-
 }
